@@ -1,0 +1,52 @@
+## **Exercícios – Estruturas Condicionais (if-else)**
+
+1. Faça um algoritmo que leia um número e informe se ele é divisível por 5.
+
+2. Faça um algoritmo que leia um número e informe se ele é par ou ímpar.
+
+3. Faça um algoritmo que leia dois números e informe qual é o maior.
+
+4. Faça um algoritmo que leia três números e informe qual é o maior.
+
+5. Faça um algoritmo que leia um número e informe se ele é positivo, negativo ou igual a zero.
+
+6. Faça um algoritmo que leia a idade de uma pessoa e informe:
+   - Se é criança (idade ≤ 12)
+   - Se é adolescente (12 < idade ≤ 18)
+   - Se é adulto (idade > 18)
+
+7. Faça um algoritmo que leia dois números e mostre as seguintes operações:
+   - A soma dos dois números.
+   - A subtração do primeiro pelo segundo.
+   - A multiplicação dos dois números.
+   - A divisão do primeiro pelo segundo (se o segundo número for diferente de zero).
+
+8. Faça um algoritmo que leia a média final de um aluno e informe se ele está:
+   - Aprovado (média ≥ 6.0)
+   - Reprovado (média < 6.0)
+
+9. Faça um algoritmo que leia dois valores e informe se são iguais ou diferentes.
+
+10. Faça um algoritmo que leia dois valores e informe qual deles é o menor.
+
+11. Faça um algoritmo que leia um caractere e informe se é uma vogal ou consoante.
+
+12. Faça um algoritmo que leia três números e informe se podem formar um triângulo (a soma de dois lados deve ser maior que o terceiro). Se sim, informe também se o triângulo é:
+    - Equilátero (3 lados iguais)
+    - Isósceles (2 lados iguais)
+    - Escaleno (3 lados diferentes)
+
+13. Faça um algoritmo que leia um ano e informe se ele é bissexto.
+    - Um ano é bissexto se for divisível por 4 e (não for divisível por 100 ou for divisível por 400).
+
+14. Faça um algoritmo que leia a nota de um aluno (0 a 10) e converta para conceito:
+    - [9.0 - 10.0] → A
+    - [7.5 - 8.9] → B
+    - [6.0 - 7.4] → C
+    - [4.0 - 5.9] → D
+    - [0.0 - 3.9] → E
+
+15. Faça um algoritmo que leia o salário de um funcionário e calcule o valor do aumento:
+    - Salário até R$ 1.000,00 → aumento de 20%
+    - Salário até R$ 2.000,00 → aumento de 10%
+    - Acima de R$ 2.000,00 → aumento de 5%
