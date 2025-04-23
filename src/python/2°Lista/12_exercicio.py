@@ -9,3 +9,6 @@ while not (nota == 'break'):
         nota = input("Digite break para calcular média\nDigite a nota do aluno: ")
 
 print(f"A média do aluno é {a/N: .2f}")
+
+#professor
+#Não consegui copiar, mas é parecido com o 4
