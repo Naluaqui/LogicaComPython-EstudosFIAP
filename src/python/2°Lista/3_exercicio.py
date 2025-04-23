@@ -1,3 +1,5 @@
+'''
+
 a = 80000
 b = 200000
 ano = 0
@@ -13,3 +15,16 @@ if a>b:
     print(f"O país A tem {a-b: .2f} habitantes a mais")
 else:
     print(f"O país B tem {b-a: .2f} habitantes a mais")
+
+'''
+
+#Professor
+
+a = 80
+b = 200
+t = 0
+while a < b:
+    a *= 1.03
+    b *= 1.015
+    t += 1
+    print(t)

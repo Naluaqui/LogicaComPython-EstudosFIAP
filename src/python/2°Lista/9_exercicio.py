@@ -1,3 +1,5 @@
+'''
+
 n1 = int(input("Digite o pimeiro número: "))
 n2 = int(input("Digite o pimeiro número: "))
 n3 = int(input("Digite o pimeiro número: "))
@@ -50,6 +52,7 @@ else:
 if n8 % 2 == 0:
     par = par + 1
 else:
+   
     impar = impar + 1
 
 if n9 % 2 == 0:
@@ -62,4 +65,17 @@ if n10 % 2 == 0:
 else:
     impar = impar + 1
 
-print(f"Quantidade de números pares {par}\nQuantidade de números ímpares {impar}")
+print(f"Quantidade de números pares {par}\nQuantidade de números ímpares {impar}")'''
+
+#Professor
+i = 0
+pares = 0 #não declarei direito, talvez o codigo não funcione mas é tipo isso
+while i < 10:
+    num = input(f"Diga o {i+1} número: ")
+    while not num.isnumeric():
+        num = input(f"Diga o {i + 1} número: ")
+    num = int(num)
+    if num%2 == 0:
+        pares += 1
+    i += 1
+print(f"Você digitou {pares} pares e {i - pares} ímpares.")
