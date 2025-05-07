@@ -25,3 +25,10 @@ soma = 0
 for i in range(len(numeros)):
    soma += numeros[i]
    print(soma)
+
+#pareando listas
+media_final = [7,2,3,6,4]
+alunos = ['Luís', 'João', 'Ana Luiza', 'José', 'Sofia']
+for i in range (len(media_final)):
+    if media_final[i] >= 6:
+        print(f'O/A {alunos[i]} passou')
