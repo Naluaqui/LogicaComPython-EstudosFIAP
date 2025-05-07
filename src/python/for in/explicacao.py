@@ -75,3 +75,11 @@ for i in range(len(preco)):
         maior = preco[i]
         indice_maior = i
 print(f'O carro mais caro é o {carros[indice_maior]}')
+
+#Tabuada do FOR IN
+for i in range (1,11):
+    print(f'Tabuada do {i}:')
+    j = 1
+    while j<10:
+        print(f'{i}*{j} = {i*j}')
+        j+=1
