@@ -63,3 +63,15 @@ for i in range(len(numeros)):
         print(f'Deu certo, vou trocar {maior} por {numeros[i]}')
         maior = numeros[i]
         indice_maior = i
+
+#Algoritmo da setas usando indice: pareando listas
+preco = [3,6.50,20,1000000,200,500]
+carros = ['kwid','civic','up','POLINHO TUBARAO','opala', 'uno com escada']
+maior = preco[0] #A seta em formato de código
+indice_maior = 0
+
+for i in range(len(preco)):
+    if preco[i] > maior:
+        maior = preco[i]
+        indice_maior = i
+print(f'O carro mais caro é o {carros[indice_maior]}')
