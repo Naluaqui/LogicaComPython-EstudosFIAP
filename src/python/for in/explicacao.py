@@ -49,9 +49,17 @@ for i in range(len(profs)):
 
 #Algoritmos das setas
 numeros = [2,5,3,6,7,1,4]
-maior = 2 #A seta em formato de código
+maior = numeros[0]  #A seta em formato de código
 for num in numeros:
     print(f'Vou testar se {num} é maior que {maior}')
     if num > maior:
         print(f'Deu certo, vou trocar {maior} por num')
         maior = num
+
+#Algoritmos das setas usando indice
+for i in range(len(numeros)):
+    print(f'Vou testar se {numeros[i]} é maior que {maior}')
+    if numeros[i] > maior:
+        print(f'Deu certo, vou trocar {maior} por {numeros[i]}')
+        maior = numeros[i]
+        indice_maior = i
