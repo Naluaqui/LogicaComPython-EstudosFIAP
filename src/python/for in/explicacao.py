@@ -38,3 +38,20 @@ materias = ['Cálculo', 'Edge', 'Sw&TX', 'Story', 'Front', 'Web', 'Python']
 for i in range (len(profs)):
     if profs[i] == 'Danilo':
         print(f'O {profs[i]} é o melhor professor 💕😁👍')
+
+
+#exercicio
+profs = ['Celso', 'Demetrius', 'Aurelio', 'Ana', 'Cidade', 'Luís', 'Danilo']
+materias = ['Cálculo', 'Edge', 'Sw&TX', 'Story', 'Front', 'Web', 'Python']
+for i in range(len(profs)):
+    print(f'O professor(a) {profs[i]} ensina {materias[i]}')
+
+
+#Algoritmos das setas
+numeros = [2,5,3,6,7,1,4]
+maior = 2 #A seta em formato de código
+for num in numeros:
+    print(f'Vou testar se {num} é maior que {maior}')
+    if num > maior:
+        print(f'Deu certo, vou trocar {maior} por num')
+        maior = num
