@@ -32,3 +32,9 @@ alunos = ['Luís', 'João', 'Ana Luiza', 'José', 'Sofia']
 for i in range (len(media_final)):
     if media_final[i] >= 6:
         print(f'O/A {alunos[i]} passou')
+
+profs = ['Celso', 'Demetrius', 'Aurelio', 'Ana', 'Cidade', 'Luís', 'Danilo']
+materias = ['Cálculo', 'Edge', 'Sw&TX', 'Story', 'Front', 'Web', 'Python']
+for i in range (len(profs)):
+    if profs[i] == 'Danilo':
+        print(f'O {profs[i]} é o melhor professor 💕😁👍')
